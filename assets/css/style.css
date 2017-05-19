@@ -7,6 +7,10 @@ body{
   background: #131313;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* Nav & Overlay */
 
 .knoware-navbar{
@@ -19,7 +23,7 @@ body{
   background: #0d0d0d;
   color: #fff;
   font-weight: 200;
-  position: relative;
+  position: fixed;
 }
 
 .knoware-navbar a{
@@ -194,6 +198,7 @@ body{
   box-sizing: border-box;
   padding: 20px;
   text-align: center;
+  background-size: cover;
   display: table;
 }
 
@@ -205,6 +210,7 @@ body{
 .knoware-camp-block{
   width: 100%;
   display: flex;
+  background-size: cover;
 }
 
 .knoware-camp-block > div{
